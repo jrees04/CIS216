@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+	* {box-sizing: border-box;}
   <head>
     <title>Twenty Ten Wireframe Drawings</title>
       <meta charset="utf-8">
@@ -28,23 +29,28 @@
 		margin-left: -5%;
 		font-weight: bold;
 	      }
-        #wrapper {margin-left: auto;
-          margin-right: auto;
+        #wrapper {
           width: 100%;
           background-color: #A3A346;
+		  width: 80%;
+		   margin: auto;
+           min-width: 960px;
+		   max-width: 1200px;
 	      }
         main { margin-left: 100px;
           background-color: #F0D085;
 		padding: 10px;
 	      }
-	      nav ul { list-style-type: none;
+	      nav ul {list-style-type: none;
+		margin-left: 0;
+		padding: 10px
 	      }
 	nav { float: left;
-		width: 90px;
-		padding: 10px;
+	  width: 150px;
 	      }
         nav a {text-decoration: none;
-          font-weight: bold;
+		padding: 10px;
+		font-weight: bold;
 		font-size: 1.5em;
         }
         nav a:link { color: #5C0811;}
