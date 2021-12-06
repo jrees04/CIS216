@@ -3,7 +3,7 @@
 	grid-template-columns: 1fr 2fr 3fr 4fr 5fr 6fr 7fr 8fr;
 	grid-template-rows: 1fr 2fr 3fr 4fr 5fr 6fr 7fr 8fr;
 	grid-template-areas:
-			"red . . . . . . ."
+		"red . . . . . . ."
 		"orange orange . . . . . ."
 		"yellow yellow yellow . . . . ."
 		"green green green green . . . ."
@@ -11,7 +11,8 @@
 		"blue blue blue blue blue blue . ."
 		"violet violet violet violet violet violet violet ."
 		"purple purple purple purple purple purple purple purple";
-	grid-gap: 0px
+	grid-gap: 0px;
+	min-height: 100vh;
 }
 
 .black { grid-area: .;
