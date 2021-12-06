@@ -3,13 +3,13 @@
 	grid-template-columns: 1fr 2fr 3fr 4fr 5fr 6fr 7fr 8fr;
 	grid-template-rows: 1fr 2fr 3fr 4fr 5fr 6fr 7fr 8fr;
 	grid-template-areas:
-		"red black black black black black black black"
-		"orange orange white white white white white black"
-		"yellow yellow yellow white white white white black"
-		"green green green green white white white black"
-		"cyan cyan cyan cyan cyan white white black"
-		"blue blue blue blue blue blue blue . black"
-		"violet violet violet violet violet violet violet black"
+			"red . . . . . . ."
+		"orange orange . . . . . ."
+		"yellow yellow yellow . . . . ."
+		"green green green green . . . ."
+		"cyan cyan cyan cyan cyan . . ."
+		"blue blue blue blue blue blue . ."
+		"violet violet violet violet violet violet violet ."
 		"purple purple purple purple purple purple purple purple";
 	grid-gap: 0px
 }
@@ -22,7 +22,7 @@
 		 grid-row-end: 9;
 }
 .white { grid-area: white;
-	background-color: black;
+	background-color: white;
 	grid-column-start: 2;
 	grid-column-end: 8;
 	grid-row-start: 2;
@@ -76,15 +76,15 @@
 	grid-column-start: 1;
 	grid-column-end: 7;
 }
-.indigo {
-	grid-area: indigo;
-	background-color: indigo;
+.violet {
+	grid-area: violet;
+	background-color: violet;
 	grid-row-start: 7;
 	grid-row-end: 8;
 	grid-column-start: 1;
 	grid-column-end: 8;
 }
-.indigo {
+.purple {
 	grid-area: purple;
 	background-color: purple;
 	grid-row-start: 8;
