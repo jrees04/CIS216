@@ -1,0 +1,94 @@
+body{background-color: #B89E81;
+	 background-image: url("image/background.gif");
+	 color: #221811;
+	 font-family: Verdana, Arial, sans-serif;
+}
+* {box-sizing: border-box;}
+#heroroad {background: url("image/heroroad.jpg");
+		   background-size: 100% 100%;
+		   height: 250px;
+}
+#heromugs {
+	background: url("image/heromugs.jpg");
+	background-size: 100% 100%;
+	height: 250px;
+}
+#heroguitar {
+	background: url("image/heroguitar.jpg");
+	background-size: 100% 100%;
+	height: 250px;
+}
+header{background-color: #D2B48C;
+	   text-align: center;
+	   height: 150px;
+	   background-image: url(image/javajamlogo.jpg);
+	   background-repeat: no-repeat;
+
+}
+h1 {
+	padding-top: 45px;
+	padding-left: 220px;
+	font-size: 3em;
+}
+nav{text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-top: 10px;
+	float: left;
+	width: 200px;
+}
+nav a{text-decoration: none;}
+nav a:link {color: #FEF6C2;}
+nav a:hover {color: #CC9933;}
+nav a:visited {color: #D2B48C}
+nav ul{ list-style-type: none;
+		padding-left: 0em;
+}
+footer{background-color: #D2B48C;
+	   font-size: .60em;
+	   font-style: italic;
+	   text-align: center;
+	   padding-bottom: 10px;
+	   border-top: 2px solid #221811
+}
+#wrapper{background-color: #231814;
+		width: 80%; min-width: 900px; max-width: 1280px;
+		 margin-left: auto;
+		 margin-right: auto;
+		 box-shadow: 3px 3px #666;
+}
+h4{background-color: #D2B48C;
+   font-size: 1.2em;
+   padding-left: .5em;
+   padding-bottom: 0em;
+   text-transform: uppercase;
+   border-bottom: solid;
+   clear: left;
+}
+.floatleft{ float: left;
+			padding-right: 2em;
+			padding-bottom: 2em;
+}
+main{
+	 padding-left: 0em;
+	 padding-top: 0em;
+	 padding-right: 0em;
+	 padding-bottom: 2em;
+	 display: block;
+	 margin-left: 200px;
+	 background-color: #FEF6C2;
+}
+main h2, main h3, main h4, main p, main div, main div p, main ul, main dl {padding-left: 3em; padding-right: 2em;}
+.details{padding-left: 20%;
+		 padding-right: 20%;
+		 overflow: auto;
+}
+img{padding-left: 10px; padding-right: 10px;}
+header, nav, main, footer {display: block;}
+table { width: 90%;
+		margin: auto;
+		border-spacing: 0;
+}
+tr:nth-of-type(odd) {background-color: #D2B48E;
+
+}
